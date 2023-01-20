@@ -1,0 +1,79 @@
+/** Button style **/
+.theme-btn,
+a.theme-btn {
+  z-index: 1;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: 700;
+  border: none;
+  text-align: center;
+  padding: 12px 30px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-transform: capitalize;
+  background: rgba(247,247,247,1);
+}
+.theme-btn i,
+a.theme-btn i {
+  font-size: 13px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  margin-left: 10px;
+}
+
+.theme-btn:after,
+a.theme-btn:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  -webkit-transition: 0.75s;
+  -o-transition: 0.75s;
+  transition: 0.75s;
+  position: absolute;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  background: #080909;
+}
+.theme-btn:hover:after,
+a.theme-btn:hover:after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  -o-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+.theme-btn.style-two,
+a.theme-btn.style-two {
+  background: #01c9f5;
+}
+.theme-btn.style-two:after,
+a.theme-btn.style-two:after {
+  background: #0066ff;
+}
+.theme-btn.style-three,
+a.theme-btn.style-three {
+  color: #293043;
+  background: transparent;
+  border: 1px solid;
+}

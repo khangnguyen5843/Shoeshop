@@ -1,0 +1,46 @@
+.header-shoe {
+  background-color: black;
+  padding: 10px 0;
+  .container {
+    .wapper-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .header-left {
+        .logo {
+          img {
+              width: auto;
+          }
+        }
+      }
+      .header-right {
+        .user-interact {
+          display: flex;
+          justify-content: space-between;
+          width: 100px;
+          align-items: end;
+          .user-search {
+            font-size: 20px;
+            color: white;
+            cursor: pointer;
+          }
+          .user-cart {
+            a {
+              span {
+                font-size: 20px;
+                color: white;
+              }
+            }
+          }
+          .user-login {
+            a {
+              font-size: 20px;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.home-page{
+    .container{
+        .home-wapper{
+            .home-top{
+
+            }
+            .home-bottom{
+                .row{
+                   .card{
+                       background-color: rgba(0, 0, 0, 0.03);;
+                       .card-body{
+                         
+                       }
+                       .card-footer{
+                           background-color: rgba(247,247,247,1);
+                           border-top: none;
+                           padding: 0;
+                           
+                           button{
+                               width: 100%;
+                               &:hover{
+                                   color: white;
+                               }
+                           }
+                       }
+                   }
+                }
+            }
+        }
+    }
+}
